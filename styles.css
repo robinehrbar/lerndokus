@@ -1,15 +1,32 @@
+h1, h2 {
+    text-decoration: underline;
+}
+
+.titel {
+    font-size: 50px;
+}
+
 main {
-    font-family: monospace;
+    font-family: helvetica;
     font-size: 130%;
 }
 
 body {
-    background: rgb(104, 148, 22);
-    margin: 0 20% 5% 20%;
+    background: rgb(127, 211, 236);
+    margin: 3% 20%;
+    padding: 2%;
+    box-shadow: 0px 0px 35px 35px rgb(177, 218, 219);
+    border: 2px solid black;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    right: 0;
 }
 
 #footerid {
-    background: rgb(114, 114, 114);
+    background: rgb(70, 120, 196);
     color: black;
     font-weight: bold;
     width: 100%;
@@ -19,14 +36,7 @@ body {
     position: fixed;
     margin-bottom: 0;
     padding: 10px 0;
-}
-
-h1, h2 {
-    text-decoration: underline;
-}
-
-.titel {
-    font-size: 50px;
+    border: 2px solid black;
 }
 
 @media (max-width: 1100px) {
